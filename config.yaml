@@ -1,0 +1,4 @@
+costs:
+  fuel_per_minute: 2000     # INR per minute delay
+  crew_per_minute: 500
+  compensation_per_flight: 5000
