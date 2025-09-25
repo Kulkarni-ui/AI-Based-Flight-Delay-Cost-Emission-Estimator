@@ -1,93 +1,78 @@
-# ✈️ AI-Based Flight Delay Cost & Emission Estimator  
+# AI-Based Flight Delay, Cost & Emission Estimator ✈️  
 
-## 📌 Overview  
-This project is a **FinTech + Aviation AI application** that predicts **flight delays**, estimates the **financial cost of delays**, and calculates the **environmental impact (CO₂ emissions)** for Indian Airlines.  
+An AI-powered tool that helps estimate **flight delays, operational costs, and environmental emissions**.  
+This project combines data-driven insights with a clean user interface built using **Streamlit**.  
 
-The application is built with **Streamlit** and provides:  
-- Flight delay prediction using a trained ML model  
-- Cost estimation of delays for airlines & passengers  
-- Environmental impact calculation (CO₂ emissions)  
-- Interactive filtering by Airline, Origin, Destinatigit add .on  
-- Visualization dashboards (charts, KPIs, tables)  
-- Exportable results in CSV  
+🌐 **Live Demo**: [AI Flight Estimator](https://aiflightestimator.streamlit.app)  
 
 ---
 
 ## 🚀 Features  
-- **Upload Flight Data** in CSV format  
-- **AI-powered Delay Prediction** (using `delay_model.pkl`)  
-- **Cost Estimation**: financial + carbon cost  
-- **Filters**: airline, departure, destination  
-- **KPIs Dashboard**: average delay, cost, carbon cost  
-- **Visualization**: airline-wise cost distribution, delay histograms  
-- **Download Results** as CSV  
-
----
-
-## 🛠️ Tech Stack  
-- **Frontend**: Streamlit  
-- **Backend/ML**: scikit-learn, pandas, joblib  
-- **Visualization**: Matplotlib, Streamlit charts  
+- 📂 **Upload Dataset** – Upload your flight dataset (CSV/XLSX).  
+- 🧠 **AI Processing** – Predicts **delays, costs, and CO₂ emissions**.  
+- 📊 **Visualization** – Interactive charts & graphs for better insights.  
+- ⚡ **Error Handling** – Supports both correct & incorrect datasets (shows results gracefully).  
+- 🎨 **Modern UI** – Simple, professional, and user-friendly.  
 
 ---
 
 ## 📂 Project Structure  
-
 ```
-AIBF-Project/
-│── app.py                  # Main Streamlit application
-│── requirements.txt        # Python dependencies
-│── delay_model.pkl         # Trained ML model
-│── data_preprocessing.py   # Preprocessing utilities
-│── cost_estimation.py      # Cost calculation logic
-│── README.md               # Project documentation
-│── dataset/                # Sample flight datasets
-│── docs/                   # Report / Documentation
+AI-Based-Flight-Delay-Cost-Emission-Estimator/
+│── app.py                # Main Streamlit app
+│── requirements.txt      # Dependencies
+│── README.md             # Project documentation
+│── dataset/              # Sample dataset (if any)
 ```
 
 ---
 
-## ⚡ Installation & Setup  
+## 🛠️ Installation & Setup  
 
-### 1️⃣ Clone the repository  
+### 1️⃣ Clone Repository  
 ```bash
-git clone https://github.com/your-username/AIBF-project.git
-cd AIBF-project
+git clone https://github.com/Kulkarni-ui/AI-Based-Flight-Delay-Cost-Emission-Estimator.git
+cd AI-Based-Flight-Delay-Cost-Emission-Estimator
 ```
 
-### 2️⃣ Create virtual environment (optional but recommended)  
+### 2️⃣ Create Virtual Environment  
 ```bash
 python -m venv venv
-source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
+source venv/bin/activate   # On Mac/Linux
 ```
 
-### 3️⃣ Install dependencies  
+### 3️⃣ Install Dependencies  
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Streamlit app  
+### 4️⃣ Run Streamlit App  
 ```bash
 streamlit run app.py
 ```
 
 ---
 
-## 🌍 Deployment (Streamlit Cloud)  
-1. Push your repo to GitHub.  
-2. Go to [Streamlit Cloud](https://share.streamlit.io).  
-3. Select your repo → branch `main` → file path `app.py`.  
-4. Deploy 🚀 and get your public link.  
+## 📊 Example Workflow  
+1. Open the app in browser.  
+2. Upload a **flight dataset**.  
+3. Get **predictions** on delay, cost, and emissions.  
+4. View **interactive graphs & insights**.  
 
 ---
 
-## 📊 Example Screenshot  
-
-*(Add your app screenshot here after deployment)*  
+## 📦 Deployment  
+The app is deployed using **Streamlit Community Cloud**.  
+👉 [Live App](https://aiflightestimator.streamlit.app/)  
 
 ---
 
-## 👨‍💻 Developed By  
+## 👨‍💻 Author  
 **Atharv Kulkarni**  
-ATC-AI FinTech Project | 2025  
+🔗 [GitHub](https://github.com/Kulkarni-ui) | [LinkedIn](https://www.linkedin.com/in/atharv-kulkarni-910785250/)  
+
+---
+
+📌 *This project is for educational & research purposes, focused on aviation analytics and sustainability.*  
+
