@@ -7,7 +7,7 @@ The application is built with **Streamlit** and provides:
 - Flight delay prediction using a trained ML model  
 - Cost estimation of delays for airlines & passengers  
 - Environmental impact calculation (CO₂ emissions)  
-- Interactive filtering by Airline, Origin, Destination  
+- Interactive filtering by Airline, Origin, Destinatigit add .on  
 - Visualization dashboards (charts, KPIs, tables)  
 - Exportable results in CSV  
 
