@@ -7,12 +7,12 @@ This project combines data-driven insights with a clean user interface built usi
 
 ---
 
-## 🚀 Features  
-- 📂 **Upload Dataset** – Upload your flight dataset (CSV/XLSX).  
-- 🧠 **AI Processing** – Predicts **delays, costs, and CO₂ emissions**.  
-- 📊 **Visualization** – Interactive charts & graphs for better insights.  
-- ⚡ **Error Handling** – Supports both correct & incorrect datasets (shows results gracefully).  
-- 🎨 **Modern UI** – Simple, professional, and user-friendly.  
+##  Features  
+-  **Upload Dataset** – Upload your flight specific dataset (CSV).  
+-  **AI Processing** – Predicts **delays, costs, and CO₂ emissions**.  
+-  **Visualization** – Interactive charts & graphs for better insights.  
+-  **Error Handling** – Supports both correct & incorrect datasets (shows results gracefully).  
+-  **Modern UI** – Simple, professional, and user-friendly.  
 
 ---
 
@@ -54,7 +54,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Example Workflow  
+## Example Workflow  
 1. Open the app in browser.  
 2. Upload a **flight dataset**.  
 3. Get **predictions** on delay, cost, and emissions.  
@@ -62,13 +62,13 @@ streamlit run app.py
 
 ---
 
-## 📦 Deployment  
+## Deployment  
 The app is deployed using **Streamlit Community Cloud**.  
 👉 [Live App](https://aiflightestimator.streamlit.app/)  
 
 ---
 
-## 👨‍💻 Author  
+## Author  
 **Atharv Kulkarni**  
 🔗 [GitHub](https://github.com/Kulkarni-ui) | [LinkedIn](https://www.linkedin.com/in/atharv-kulkarni-910785250/)  
 
